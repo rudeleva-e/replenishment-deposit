@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div>
+    <form id="deposit-form">
+        <div>
+            <input id="amount-input"
+        </div>
+        <div>
+            <input id="period-input">
+        </div>
+        <button id="calculate">Рассчитать</button>
+    </form>
+    <div>
+        <p>Сумма в конце срока <span id="total"></span> ₽</p>
+        <p>Доход <span id="profit"></span> ₽</p>
+        <p>Ставка в год <span id="percent"></span>%</p>
+    </div>
+</div>
 <script src="js/app.js"></script>
 </body>
 </html>
